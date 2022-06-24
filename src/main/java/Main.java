@@ -6,7 +6,7 @@ public class Main {
         System.out.println("Please enter your age.");
         Scanner inputScanner = new Scanner(System.in);
         int userInput = inputScanner.nextInt();
-        if(userInput < 18) {
+        if (userInput < 18) {
             System.out.println("Hello kiddos");
             if (userInput < 10) {
                 System.out.println("Impressively young to be learning this!");
